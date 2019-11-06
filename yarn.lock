@@ -95,6 +95,32 @@
     url-regex "~5.0.0"
     video-extensions "~1.1.0"
 
+"@metascraper/helpers@^5.7.17":
+  version "5.7.17"
+  resolved "https://registry.yarnpkg.com/@metascraper/helpers/-/helpers-5.7.17.tgz#401897c7239090ca7149b83e581712845bbb3709"
+  integrity sha512-t21LqfDpaIrWg2JaivXG6mVzUsIVW05cAsKySA5Tj9Hgi9oZXxaaNes5XipOzk6P242RI48SDo7CkSbYiio7Tw==
+  dependencies:
+    audio-extensions "0.0.0"
+    chrono-node "~1.3.11"
+    condense-whitespace "~2.0.0"
+    entities "~2.0.0"
+    file-extension "~4.0.5"
+    has-values "~2.0.1"
+    image-extensions "~1.1.0"
+    is-relative-url "~3.0.0"
+    is-uri "~1.2.0"
+    iso-639-3 "~1.2.0"
+    isostring "0.0.1"
+    lodash "~4.17.15"
+    memoize-one "~5.1.1"
+    mime-types "~2.1.24"
+    normalize-url "~4.5.0"
+    smartquotes "~2.3.1"
+    title "~3.4.1"
+    truncate "~2.1.0"
+    url-regex "~5.0.0"
+    video-extensions "~1.1.0"
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -199,10 +225,10 @@
     mkdirp "0.5.0"
     yauzl "2.4.1"
 
-"@tryghost/helpers@1.1.17":
-  version "1.1.17"
-  resolved "https://registry.yarnpkg.com/@tryghost/helpers/-/helpers-1.1.17.tgz#73582c3f18606c3038385e3c29185c86765ad4e4"
-  integrity sha512-0c+VB6LgTvLd7NPtSoyEIF5fwG9EbU95/km1TKMjKP3wOJSeRF908sF638psrvVCQfalS5oR3Q3VhVbwOQ0PZg==
+"@tryghost/helpers@1.1.18":
+  version "1.1.18"
+  resolved "https://registry.yarnpkg.com/@tryghost/helpers/-/helpers-1.1.18.tgz#75bcaf0bf69de5d246003be65d0bf9ed0b41fcd9"
+  integrity sha512-qEwMsHYm+8kwByUgSfV55umfWIvamNXyn21F3WbwC+biYbQNwI+lxe+indiveSJxfoDNv907/ZAevmVK5PmTxw==
   dependencies:
     lodash-es "^4.17.11"
 
@@ -253,14 +279,14 @@
     node-jose "^1.1.3"
     stripe "^7.4.0"
 
-"@tryghost/members-ssr@0.7.1":
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/@tryghost/members-ssr/-/members-ssr-0.7.1.tgz#e4d5e17478af44b5e3de6bf05e4a282fade0db8a"
-  integrity sha512-akwMXRF9yj+QMxpRkbDfN0w5/+lBm02TU1Qme4eAdtcdu4WHOJEao/w4cRTaqaVivmZBWowbvBCaSEGjv96dQg==
+"@tryghost/members-ssr@0.7.2":
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/@tryghost/members-ssr/-/members-ssr-0.7.2.tgz#3d24b99d735af5c74f8a33bea9a083ad816cdd41"
+  integrity sha512-TbMWPUpCCxidZsdPOR3NorsDHm6u8HphdgpePGgblpe8JBr4Vglwi7qgo/L7UVyoxICkN+xcF5k/xx4pJHR7Kg==
   dependencies:
     bluebird "^3.5.3"
     concat-stream "^2.0.0"
-    cookies "^0.7.3"
+    cookies "^0.8.0"
     ghost-ignition "^3.0.4"
     jsonwebtoken "^8.5.1"
     lodash "^4.17.11"
@@ -273,10 +299,10 @@
     mobiledoc-dom-renderer "0.6.5"
     mobiledoc-text-renderer "0.3.2"
 
-"@tryghost/pretty-cli@1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@tryghost/pretty-cli/-/pretty-cli-1.2.1.tgz#b419e936c81c8aabf7f081645751c17004a5bb09"
-  integrity sha512-SFu5CcljG7mqxcA/J2WFE9M/bbpzJG0oVqT7P/P0HRbcTgBmQ5nMczO70WNASSqBglAh/uR34K0HVz5qynxyDw==
+"@tryghost/pretty-cli@1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@tryghost/pretty-cli/-/pretty-cli-1.2.2.tgz#bebc31cabdba3a60c0848b9fdb39f1f4846b4017"
+  integrity sha512-3GK42+Ju7blugavxmGZoNBhkKXtd4NNcXGE9FZ99+tXLiFs+Y5psVLm9dK3DJB6lgt2Keo0GbpJxsh57ivLG2w==
   dependencies:
     chalk "^2.4.1"
     sywac "^1.2.1"
@@ -1315,7 +1341,7 @@ cheerio@~1.0.0-rc.2:
     lodash "^4.15.0"
     parse5 "^3.0.1"
 
-chownr@^1.1.1:
+chownr@^1.1.1, chownr@^1.1.3:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/chownr/-/chownr-1.1.3.tgz#42d837d5239688d55f303003a508230fa6727142"
   integrity sha512-i70fVHhmV3DtTl6nqvZOnIjbY0Pe4kAUjwHj8z0zAdgBtYrJyYwLKCCuRBQ5ppkyL0AkN7HKRnETdmdp1zqNXw==
@@ -1707,7 +1733,7 @@ cookiejar@^2.1.0:
   resolved "https://registry.yarnpkg.com/cookiejar/-/cookiejar-2.1.2.tgz#dd8a235530752f988f9a0844f3fc589e3111125c"
   integrity sha512-Mw+adcfzPxcPeI+0WlvRrr/3lGVO0bD75SxX6811cxSh1Wbxx7xZBGK1eVtDf6si8rg2lhnUjsVLMFMfbRIuwA==
 
-cookies@0.7.3, cookies@^0.7.3:
+cookies@0.7.3:
   version "0.7.3"
   resolved "https://registry.yarnpkg.com/cookies/-/cookies-0.7.3.tgz#7912ce21fbf2e8c2da70cf1c3f351aecf59dadfa"
   integrity sha512-+gixgxYSgQLTaTIilDHAdlNPZDENDQernEMiIcZpYYP14zgHsCt4Ce1FEjFtcp6GefhozebB6orvhAAWx/IS0A==
@@ -3215,6 +3241,13 @@ fs-minipass@^1.2.5:
   dependencies:
     minipass "^2.6.0"
 
+fs-minipass@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/fs-minipass/-/fs-minipass-2.0.0.tgz#a6415edab02fae4b9e9230bc87ee2e4472003cd1"
+  integrity sha512-40Qz+LFXmd9tzYVnnBmZvFfvAADfUA14TXPK1s7IfElJTIZ97rA8w4Kin7Wt5JBrC3ShnnFJO/5vPjPEeJIq9A==
+  dependencies:
+    minipass "^3.0.0"
+
 fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
@@ -3747,13 +3780,13 @@ grunt@1.0.4:
     path-is-absolute "~1.0.0"
     rimraf "~2.6.2"
 
-gscan@3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/gscan/-/gscan-3.1.0.tgz#31a7487d58acd198d3976458054e6f16b7362e46"
-  integrity sha512-hXZBN4RN4a8yBXIwp2otNlaRCCQlGfV6feHU0HMDfyJ5wi8PnyHYwYEvEEjYEfiTZNgBrZxVF49XX/7z7Pd/hg==
+gscan@3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/gscan/-/gscan-3.1.1.tgz#e86c2b0f93df7b1f85452584d3dbcb0b766bf901"
+  integrity sha512-As5E9ghdLfEmp+JjFcZhkkPNPzsLNgMj0r/CVkgwcHcQ1rTu4WhLKH3FsZIZPObCwqWjNxJeMTU+Tf4hrDKXfw==
   dependencies:
     "@tryghost/extract-zip" "1.6.6"
-    "@tryghost/pretty-cli" "1.2.1"
+    "@tryghost/pretty-cli" "1.2.2"
     bluebird "^3.4.6"
     chalk "^2.0.0"
     common-tags "^1.8.0"
@@ -5403,72 +5436,72 @@ merge2@^1.2.3:
   resolved "https://registry.yarnpkg.com/merge2/-/merge2-1.3.0.tgz#5b366ee83b2f1582c48f87e47cf1a9352103ca81"
   integrity sha512-2j4DAdlBOkiSZIsaXk4mTE3sRS02yBHAtfy127xRV3bQUFqXkjHCHLW6Scv7DwNRbIWNHH8zpnz9zMaKXIdvYw==
 
-metascraper-author@5.7.14:
-  version "5.7.14"
-  resolved "https://registry.yarnpkg.com/metascraper-author/-/metascraper-author-5.7.14.tgz#5504c413eece572c66e72825bb1cff757974a4b8"
-  integrity sha512-P8xpHHoCzlbt1lb8qKbkz9XQ4MWC0c9ElKFORQ1GPmSVh0n+aTO1APKofFYcnl9rq6QIyYU4PLTqQZ54KXMqtA==
+metascraper-author@5.7.17:
+  version "5.7.17"
+  resolved "https://registry.yarnpkg.com/metascraper-author/-/metascraper-author-5.7.17.tgz#0403eaa4d1992152246f01616fac1d52b0583c8a"
+  integrity sha512-vaMAn6glCr9f2PGvNObqMI7ECtQ7+CMkXSxKyn3fyxRVKnV95fBR+xi4+UJ2DWqTvVQ6t7gZwlzFWA4CwxfniQ==
   dependencies:
-    "@metascraper/helpers" "^5.7.14"
+    "@metascraper/helpers" "^5.7.17"
     lodash "~4.17.15"
 
-metascraper-description@5.7.14:
-  version "5.7.14"
-  resolved "https://registry.yarnpkg.com/metascraper-description/-/metascraper-description-5.7.14.tgz#4b77b04120f5f4f17dcabb4f549a7954da74b581"
-  integrity sha512-++qN4Rf0Hx13SbhJgRiLSuVOZHsYwhUkMfHa5sVVihSJkrLVjOSdBTpNBajRC7yHwG6m6/qIesuERbT1jdu5bw==
+metascraper-description@5.7.17:
+  version "5.7.17"
+  resolved "https://registry.yarnpkg.com/metascraper-description/-/metascraper-description-5.7.17.tgz#b0daa54d0345546ececcc033065790402aabb5ec"
+  integrity sha512-cQfg9Spl3FLK2x8O7DvecwSYEBUmRjtdZW2y1EVqHsOKwT13SeUy1kp+lZa8+8vFh4o8oJPzXHxgbLhAfAmVqQ==
   dependencies:
-    "@metascraper/helpers" "^5.7.14"
+    "@metascraper/helpers" "^5.7.17"
 
-metascraper-image@5.7.14:
-  version "5.7.14"
-  resolved "https://registry.yarnpkg.com/metascraper-image/-/metascraper-image-5.7.14.tgz#7084754111312eac876728f8dd801fa1c143a794"
-  integrity sha512-TxnUKYU92iWapq2G55E4AF7VjGyiDO2x01Z6AyjbmRxoM4U2IaHkNpE5msyc7TQhxGoYOSvdUtOeUnqdPqr+aA==
+metascraper-image@5.7.17:
+  version "5.7.17"
+  resolved "https://registry.yarnpkg.com/metascraper-image/-/metascraper-image-5.7.17.tgz#186b29979cb8aefc6c21d0342c386a8fef80be55"
+  integrity sha512-bwAUJrJibJ+fJGxL8T789Ki1z+8sqsz0sqb3W+mfR/ZLkhCu+jWLYqPVtMgTPM9Zaqqqxg5uTQs1uAVrnguKDA==
   dependencies:
-    "@metascraper/helpers" "^5.7.14"
+    "@metascraper/helpers" "^5.7.17"
 
-metascraper-logo-favicon@5.7.14:
-  version "5.7.14"
-  resolved "https://registry.yarnpkg.com/metascraper-logo-favicon/-/metascraper-logo-favicon-5.7.14.tgz#8ec607c8ef88dbe420207c978cb8098eb75064c9"
-  integrity sha512-k1kyywGZUkYVM4Kk6aiJmif4sh+sKRdmGRLE2QJLaeJOcxssQXpw02nJ65fL0nx//2boQ9dWPDIaqonbsFuB2Q==
+metascraper-logo-favicon@5.7.17:
+  version "5.7.17"
+  resolved "https://registry.yarnpkg.com/metascraper-logo-favicon/-/metascraper-logo-favicon-5.7.17.tgz#913c1cf5cfa96dc7d7c74fad1c53e7deb946445d"
+  integrity sha512-/tff0N+XCerc5YvwzjvyyPEF+q+cpz+p6vOnqU7zzrOlXj7+8mSMYEeFTKmhhkp9zwoi5Tev//pFH1aHXdGmyw==
   dependencies:
-    "@metascraper/helpers" "^5.7.14"
+    "@metascraper/helpers" "^5.7.17"
     got "~9.6.0"
     lodash "~4.17.15"
 
-metascraper-logo@5.7.14:
-  version "5.7.14"
-  resolved "https://registry.yarnpkg.com/metascraper-logo/-/metascraper-logo-5.7.14.tgz#c5e7f4d4191672e48130e10f21f4a31a9faf539d"
-  integrity sha512-5kgH+2+chlJ4mUajHItg1lsXhkcWQbnkLcGrE+7YMIIf/7uHFGehg+dqVNw1CRBPNpwJKibrZSb9aHMlWJPwlg==
+metascraper-logo@5.7.17:
+  version "5.7.17"
+  resolved "https://registry.yarnpkg.com/metascraper-logo/-/metascraper-logo-5.7.17.tgz#b26e2fb38e94cfe9ec9dfc7e28d8da26a0a0689d"
+  integrity sha512-S4aqxN4Qi3UXDLN4HhinEuQHUopYXbFw0Y5Cwj9TbGKfESeQ1n6Jm4eOgGifEYyyZMSeRR9li189EK3YPnYcFg==
   dependencies:
-    "@metascraper/helpers" "^5.7.14"
+    "@metascraper/helpers" "^5.7.17"
 
-metascraper-publisher@5.7.14:
-  version "5.7.14"
-  resolved "https://registry.yarnpkg.com/metascraper-publisher/-/metascraper-publisher-5.7.14.tgz#74218cd2c1042264a3df754930e18d5e1f731750"
-  integrity sha512-6WHVr03tu4+KtcETR/q8y7ND9HxKI8QEEI1NAVpAolm1szDSpzV1PXVxWILcc2zPsaAHBSvM0iMwmE1zBEs+BA==
+metascraper-publisher@5.7.17:
+  version "5.7.17"
+  resolved "https://registry.yarnpkg.com/metascraper-publisher/-/metascraper-publisher-5.7.17.tgz#38455e035d8d34c42eff529316ee15f31726d641"
+  integrity sha512-BxiweB0vxXX0UF2YVxzwC7Y8X0A5mU+eaa6TsTrTGHPBWeZCUJaLJ2Ge35c00SIC+USgdu8KFyzF6+pJBObwvQ==
   dependencies:
-    "@metascraper/helpers" "^5.7.14"
+    "@metascraper/helpers" "^5.7.17"
 
-metascraper-title@5.7.14:
-  version "5.7.14"
-  resolved "https://registry.yarnpkg.com/metascraper-title/-/metascraper-title-5.7.14.tgz#4abea12bc9f0d3df5b442cb3c1a8c6559e417ea4"
-  integrity sha512-ZiVo4LEfqiNHlCGjht5OSZ3yRKxcZnbaXeRmUReMkCHcFujok5YZBj5ktDpAANmG9T3x2gn3twM3ZbBSyXLYyg==
+metascraper-title@5.7.17:
+  version "5.7.17"
+  resolved "https://registry.yarnpkg.com/metascraper-title/-/metascraper-title-5.7.17.tgz#5b947635361bfb4d7557eadcb623489c812322e6"
+  integrity sha512-YCEbiU2MbPMLulXmLbSBN/N7ti9tBVr45yqMKSuFsWiNJ98bFsM1IQp1LN5KqRQmNkOg+8JsYgK+R9vqYwaGjg==
   dependencies:
-    "@metascraper/helpers" "^5.7.14"
+    "@metascraper/helpers" "^5.7.17"
     lodash "~4.17.15"
 
-metascraper-url@5.7.14:
-  version "5.7.14"
-  resolved "https://registry.yarnpkg.com/metascraper-url/-/metascraper-url-5.7.14.tgz#20645ec0299f1fe4bf194b08037e344b9555bfd0"
-  integrity sha512-scsXsbhI9VFcmgtMI/bsr+onvzzWGX4h80pitQQpECA7X2K2qcm5qic+anv6K2simbPJ/brDkhHC2rMRm9snbw==
+metascraper-url@5.7.17:
+  version "5.7.17"
+  resolved "https://registry.yarnpkg.com/metascraper-url/-/metascraper-url-5.7.17.tgz#e8ba40a17a59b54139f42d6e3cf430dc6f32e7d7"
+  integrity sha512-7OOhCXpxdMiJatrbxa9rqLmUT/t/s34PDgtknoE/2FfmZY7X/xyORamcuqUHjV37sOpCPTun+GcJL4l3ddCi3Q==
   dependencies:
-    "@metascraper/helpers" "^5.7.14"
+    "@metascraper/helpers" "^5.7.17"
 
-metascraper@5.7.14:
-  version "5.7.14"
-  resolved "https://registry.yarnpkg.com/metascraper/-/metascraper-5.7.14.tgz#2c28f1d350badf3ad1837a51b629ba2ef01d1afe"
-  integrity sha512-NzEniwEprqxE2/EOYWOY/jkxKy9DR5lnVHQUtv+fPn0rdLd0+bd62vdYuw7DUm12lrovAm6WcjRn+EpbhzJR3w==
+metascraper@5.7.17:
+  version "5.7.17"
+  resolved "https://registry.yarnpkg.com/metascraper/-/metascraper-5.7.17.tgz#d1c09fc40b525df7db877528e664fb0608e5ada3"
+  integrity sha512-JGhQvZiXYEq4c5FucZCJ/1J0aG6pxfzD66Wfo82v5X/XNSJtcbXHWG1F7tEteWGInTt0pmQVg5q7Bxq15FWmYA==
   dependencies:
-    "@metascraper/helpers" "^5.7.14"
+    "@metascraper/helpers" "^5.7.17"
     cheerio "~1.0.0-rc.2"
     cheerio-advanced-selectors "~2.0.1"
     lodash "~4.17.15"
@@ -5610,12 +5643,27 @@ minipass@^2.6.0, minipass@^2.8.6, minipass@^2.9.0:
     safe-buffer "^5.1.2"
     yallist "^3.0.0"
 
+minipass@^3.0.0:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/minipass/-/minipass-3.1.1.tgz#7607ce778472a185ad6d89082aa2070f79cedcd5"
+  integrity sha512-UFqVihv6PQgwj8/yTGvl9kPz7xIAY+R5z6XYjRInD3Gk3qx6QGSD6zEcpeG4Dy/lQnv1J6zv8ejV90hyYIKf3w==
+  dependencies:
+    yallist "^4.0.0"
+
 minizlib@^1.2.1:
   version "1.3.3"
   resolved "https://registry.yarnpkg.com/minizlib/-/minizlib-1.3.3.tgz#2290de96818a34c29551c8a8d301216bd65a861d"
   integrity sha512-6ZYMOEnmVsdCeTJVE0W9ZD+pVnE8h9Hma/iOwwRDsdQoePpoX56/8B6z3P9VNwppJuBKNRuFDRNRqRWexT9G9Q==
   dependencies:
     minipass "^2.9.0"
+
+minizlib@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/minizlib/-/minizlib-2.1.0.tgz#fd52c645301ef09a63a2c209697c294c6ce02cf3"
+  integrity sha512-EzTZN/fjSvifSX0SlqUERCN39o6T40AMarPbv0MrarSFtIITCBh7bi+dU8nxGFHuqs9jdIAeoYoKuQAAASsPPA==
+  dependencies:
+    minipass "^3.0.0"
+    yallist "^4.0.0"
 
 mixin-deep@^1.2.0:
   version "1.3.2"
@@ -6194,10 +6242,10 @@ object.pick@^1.2.0, object.pick@^1.3.0:
   dependencies:
     isobject "^3.0.1"
 
-oembed-parser@1.3.5:
-  version "1.3.5"
-  resolved "https://registry.yarnpkg.com/oembed-parser/-/oembed-parser-1.3.5.tgz#795699870ee5a3779d1b052614c71bf19eeb94bf"
-  integrity sha512-hVc0/a6WKuVDGo0xhO1b2LgxtZ698NPBAchqPaiUFV0p/NfK4p+TfYpBBdKdaGbWQfRG7XHdj3ESJ3sJ6nWmXQ==
+oembed-parser@1.3.6:
+  version "1.3.6"
+  resolved "https://registry.yarnpkg.com/oembed-parser/-/oembed-parser-1.3.6.tgz#a17d9bdd19983e183428240d2789234f352aee49"
+  integrity sha512-Q7Mr0p85l/jAZhiQGKI/dnV1zLthhECO+rYgfmxRzVmYtgs7Y8OjICMefHVxYWe6Kme/Ar9QhPV1Qi8hsG+/Kw==
   dependencies:
     node-fetch "^2.6.0"
 
@@ -7623,10 +7671,10 @@ setprototypeof@1.1.1:
   resolved "https://registry.yarnpkg.com/setprototypeof/-/setprototypeof-1.1.1.tgz#7e95acb24aa92f5885e0abef5ba131330d4ae683"
   integrity sha512-JvdAWfbXeIGaZ9cILp38HntZSFSo3mWg6xGcJJsd+d4aRMOqauag1C63dJfDw7OaMYwEbHMOxEZ1lqVRYP2OAw==
 
-sharp@0.23.1:
-  version "0.23.1"
-  resolved "https://registry.yarnpkg.com/sharp/-/sharp-0.23.1.tgz#28f930c1677f219b448dee4d28d04a69dc0966aa"
-  integrity sha512-xt1SOwC5ewuqApBzKMFQ5VaRsC3GjOl1xklsnPNAAG7KWEAi50STFrVwjxFRe4puZ/59JU0QQqoFe7TZNnXd/g==
+sharp@0.23.2:
+  version "0.23.2"
+  resolved "https://registry.yarnpkg.com/sharp/-/sharp-0.23.2.tgz#5f8b77513aa1f7e4d0dd969a3904ced75486c1d7"
+  integrity sha512-BSo0tq6Jtzwa6GDKvVMNNPCP/HLczrFLGVcorYv7OtxlKx4UPHy7x9DdfT8F+PK7FCFDemVRwtsjWpvaJI9v6w==
   dependencies:
     color "^3.1.2"
     detect-libc "^1.0.3"
@@ -7635,7 +7683,7 @@ sharp@0.23.1:
     prebuild-install "^5.3.2"
     semver "^6.3.0"
     simple-get "^3.1.0"
-    tar "^4.4.13"
+    tar "^5.0.5"
     tunnel-agent "^0.6.0"
 
 shebang-command@^1.2.0:
@@ -8297,7 +8345,7 @@ tar-stream@^2.0.0, tar-stream@^2.1.0:
     inherits "^2.0.3"
     readable-stream "^3.1.1"
 
-tar@^4, tar@^4.4.13:
+tar@^4:
   version "4.4.13"
   resolved "https://registry.yarnpkg.com/tar/-/tar-4.4.13.tgz#43b364bc52888d555298637b10d60790254ab525"
   integrity sha512-w2VwSrBoHa5BsSyH+KxEqeQBAllHhccyMFVHtGtdMpF4W7IRWfZjFiQceJPChOeTsSDVUpER2T8FA93pr0L+QA==
@@ -8309,6 +8357,18 @@ tar@^4, tar@^4.4.13:
     mkdirp "^0.5.0"
     safe-buffer "^5.1.2"
     yallist "^3.0.3"
+
+tar@^5.0.5:
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/tar/-/tar-5.0.5.tgz#03fcdb7105bc8ea3ce6c86642b9c942495b04f93"
+  integrity sha512-MNIgJddrV2TkuwChwcSNds/5E9VijOiw7kAc1y5hTNJoLDSuIyid2QtLYiCYNnICebpuvjhPQZsXwUL0O3l7OQ==
+  dependencies:
+    chownr "^1.1.3"
+    fs-minipass "^2.0.0"
+    minipass "^3.0.0"
+    minizlib "^2.1.0"
+    mkdirp "^0.5.0"
+    yallist "^4.0.0"
 
 tarn@^1.1.5:
   version "1.1.5"
@@ -9059,6 +9119,11 @@ yallist@^3.0.0, yallist@^3.0.3:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-3.1.1.tgz#dbb7daf9bfd8bac9ab45ebf602b8cbad0d5d08fd"
   integrity sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==
+
+yallist@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/yallist/-/yallist-4.0.0.tgz#9bb92790d9c0effec63be73519e11a35019a3a72"
+  integrity sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==
 
 yargs-parser@13.1.1, yargs-parser@^13.1.1:
   version "13.1.1"
