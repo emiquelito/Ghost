@@ -1,6 +1,6 @@
 ### Get certain node image
 FROM ubuntu:18.04
-MAINTAINER Dat Trinh 
+MAINTAINER Ghost
 
 # Use bash for the shell
 SHELL ["bash", "-c"]
@@ -21,7 +21,7 @@ ENV USR_EMAIL=$usr_email
 RUN apt-get update -y
 
 ## Init && Install dependent packages
-RUN apt-get upgrade -y 
+RUN apt-get upgrade -y
 RUN apt-get install curl git sqlite -y
 
 RUN curl -sL https://deb.nodesource.com/setup_10.x | bash
@@ -49,11 +49,9 @@ RUN sed -i "s/127.0.0.1/0.0.0.0/g" "core/server/config/defaults.json"
 # Manual grunt init: pull private repo Admin client and themes/casper.
 RUN mkdir -p content/themes && \
 		cd content/themes && \
-		#git clone https://github.com/goonux/Casper.git casper
 		git clone https://github.com/TryGhost/Casper.git casper
 
 RUN cd core && \
-		#git clone https://github.com/goonux/Ghost-Admin.git client
 		git clone https://github.com/TryGhost/Ghost-Admin.git client
 
 
