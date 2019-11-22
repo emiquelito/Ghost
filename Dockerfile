@@ -44,10 +44,12 @@ RUN mkdir -p content/themes && \
 		cd content/themes && \
 		git clone https://github.com/TryGhost/Casper.git casper
 
+COPY . /var/lib/ghost/
+WORKDIR /var/lib/ghost/
+
 RUN cd core && \
 		git clone https://github.com/TryGhost/Ghost-Admin.git client
 
-COPY . /var/lib/ghost/
 
 ## Turn localhost to Squash domain.
 RUN sed -i "s/http:\/\/localhost:2368/https:\/\/$SQUASH_DOMAIN/g" "core/server/config/env/config.development.json"
