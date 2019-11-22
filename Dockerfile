@@ -39,13 +39,6 @@ RUN yarn global add knex-migrator grunt-cli ember-cli bower
 RUN mkdir -p /var/lib/ghost
 WORKDIR /var/lib/ghost/
 
-## Turn localhost to Squash domain.
-RUN sed -i "s/http:\/\/localhost:2368/https:\/\/$SQUASH_DOMAIN/g" "core/server/config/env/config.development.json"
-
-RUN sed -i "s/http:\/\/localhost:2368/http:\/\/0.0.0.0:2368/g" "core/server/config/defaults.json"
-
-RUN sed -i "s/127.0.0.1/0.0.0.0/g" "core/server/config/defaults.json"
-
 # Manual grunt init: pull private repo Admin client and themes/casper.
 RUN mkdir -p content/themes && \
 		cd content/themes && \
@@ -54,8 +47,14 @@ RUN mkdir -p content/themes && \
 RUN cd core && \
 		git clone https://github.com/TryGhost/Ghost-Admin.git client
 
-
 COPY . /var/lib/ghost/
+
+## Turn localhost to Squash domain.
+RUN sed -i "s/http:\/\/localhost:2368/https:\/\/$SQUASH_DOMAIN/g" "core/server/config/env/config.development.json"
+
+RUN sed -i "s/http:\/\/localhost:2368/http:\/\/0.0.0.0:2368/g" "core/server/config/defaults.json"
+
+RUN sed -i "s/127.0.0.1/0.0.0.0/g" "core/server/config/defaults.json"
 
 RUN yarn setup
 
