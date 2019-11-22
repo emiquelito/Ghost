@@ -37,7 +37,6 @@ RUN yarn global add knex-migrator grunt-cli ember-cli bower
 
 ## configure your own reposities
 RUN mkdir -p /var/lib/ghost
-COPY . /var/lib/ghost/
 WORKDIR /var/lib/ghost/
 
 ## Turn localhost to Squash domain.
@@ -56,6 +55,9 @@ RUN mkdir -p content/themes && \
 RUN cd core && \
 		#git clone https://github.com/goonux/Ghost-Admin.git client
 		git clone https://github.com/TryGhost/Ghost-Admin.git client
+
+
+COPY . /var/lib/ghost/
 
 RUN yarn setup
 
