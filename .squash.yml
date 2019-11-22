@@ -1,10 +1,15 @@
-## You need the BCrypt hash string of the plaintext password
-## You can generate the BCrypt hash string at : https://passwordhashing.com/BCrypt
-## This Squash file is using the BCrypt hash string ($2b$10$H3T/cnjaCIgBHwUiMMPlzuMxNFVUrAMdv67CM5S.DEPsF8RF2mWsW) of the password : Ghost@123
-## You can change the usr_email and usr_password as you wish.
-## The default settings of Admin client panel:
-## email:  ghost@example.com
-## password:  Ghost@123
+# You need the BCrypt hash string of the plaintext password
+# You can generate the BCrypt hash string at : https://passwordhashing.com/BCrypt
+#
+# This Squash file is using the BCrypt hash string
+# ($2b$10$H3T/cnjaCIgBHwUiMMPlzuMxNFVUrAMdv67CM5S.DEPsF8RF2mWsW)
+# # of the password : Ghost@123
+# You can change the usr_email and usr_password as you wish.
+#
+# The default settings of Admin client panel:
+#   URL: /Ghost
+#   email:  ghost@example.com
+#   password:  Ghost@123
 
 deployments:
   Ghost:
