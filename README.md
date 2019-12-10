@@ -4,7 +4,7 @@
   </a>
 </p>
 <p align="center">
-    <a href="https://ghost.org">Ghost.org</a> |
+    <a href="https://ghost.org">Ghost.org ABC</a> |
     <a href="https://ghost.org/features">Features</a> |
     <a href="https://ghost.org/customers">Showcase</a> |
     <a href="https://forum.ghost.org">Forum</a> |
